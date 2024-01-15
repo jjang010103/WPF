@@ -1,0 +1,30 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MEMO"
+        xmlns:ViewModel="clr-namespace:MEMO.ViewModel" x:Class="MEMO.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="800">
+    <Window.DataContext>
+        <ViewModel:MemoViewInfo x:Name="MemoView"/>
+    </Window.DataContext>
+    <Canvas x:Name="canvasMain">
+        <TabControl x:Name="tabMain" ItemsSource="{Binding MemoList}" Height="{Binding ActualHeight, ElementName=canvasMain}" Width="{Binding ActualWidth, ElementName=canvasMain}">
+            <TabControl.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Title}"/>
+                </DataTemplate>
+            </TabControl.ItemTemplate>
+            <TabControl.ContentTemplate>
+                <DataTemplate>
+                    <local:UcChildView ContentValue="{Binding Content, Mode=TwoWay}" FilePath="{Binding FilePath, Mode=TwoWay}"/>
+                </DataTemplate>
+            </TabControl.ContentTemplate>
+        </TabControl>
+        <Button x:Name="btnAdd" Canvas.Right="4" Canvas.Top="4" Width="15" Height="15" Click="BtnAdd_Click">
+            <TextBlock Text="+" Margin="0,-4,0,0"/>
+        </Button>
+    </Canvas>
+</Window>

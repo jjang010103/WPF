@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4HOjavq7BkbuqPMTDVDrWJVnj2rMk5CX0G2NnOWAofcIq6tn9B+eJWqx1Z6UlPzR53gb/rfzsiq40l+NuPZHlw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mgjang\\Documents\\GitHub\\WPF\\MEMO\\MEMO\\MEMO.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mgjang\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512"
+  ],
+  "logs": []
+}
