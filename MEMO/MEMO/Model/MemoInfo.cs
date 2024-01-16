@@ -39,5 +39,11 @@ namespace MEMO.Model
             this._filePath = "/";
             this._title = "No Title";
         }
+
+        public void ChangeFilePathData(string filePath)
+        {
+            this.FilePath = filePath;
+            this.Title = System.IO.Path.GetFileName(filePath);
+        }
     }
 }

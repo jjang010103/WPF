@@ -1,6 +1,4 @@
-﻿using System.Configuration;
-using System.Data;
-using System.Windows;
+﻿using System.Windows;
 
 namespace MEMO
 {
@@ -9,6 +7,9 @@ namespace MEMO
     /// </summary>
     public partial class App : Application
     {
+        public App()
+        {
+            this.InitializeComponent();
+        }
     }
-
 }
