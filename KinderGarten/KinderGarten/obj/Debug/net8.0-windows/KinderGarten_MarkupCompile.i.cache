@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\mgjang\Documents\GitHub\WPF\KinderGarten\KinderGarten\App.xaml
-3-29939536
+5-1732051759
 
-111689018701
-2001053105466
-View\MainWindow.xaml;View\Page1.xaml;View\Page2.xaml;
+16-230301177
+202-2094238819
+View\MainPage.xaml;View\MainWindow.xaml;View\Page1.xaml;View\Page2.xaml;View\Page3.xaml;
 
-True
+False
 

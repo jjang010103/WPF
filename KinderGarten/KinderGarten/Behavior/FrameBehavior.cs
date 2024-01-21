@@ -1,17 +1,12 @@
 ﻿using Microsoft.Xaml.Behaviors;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 
 namespace KinderGarten.Behavior
 {
-    internal class FrameBehavior : Behavior<Frame>
+    public class FrameBehavior : Behavior<Frame>
     {
-        public static readonly DependencyProperty NavigationPathDp = DependencyProperty.Register(nameof(NavigationPath), typeof(string),
+        public static readonly DependencyProperty NavigationPathDp = DependencyProperty.Register(nameof(NavigationPage), typeof(Page),
                                                         typeof(FrameBehavior), new PropertyMetadata(null, NavigationSourceChanged));
 
         private static void NavigationSourceChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
@@ -21,11 +16,11 @@ namespace KinderGarten.Behavior
             behavior.Navigate();
         }
 
-        public string NavigationPath
+        public Page NavigationPage
         {
             get
             {
-                return (string)GetValue(NavigationPathDp);
+                return (Page)GetValue(NavigationPathDp);
             }
             set
             {
@@ -35,10 +30,7 @@ namespace KinderGarten.Behavior
 
         private void Navigate()
         {
-            if(!string.IsNullOrEmpty(this.NavigationPath))
-            {
-                this.AssociatedObject.Navigate(new Uri(this.NavigationPath, UriKind.RelativeOrAbsolute));
-            }
+            this.AssociatedObject.Navigate(this.NavigationPage);
         }
     }
 }

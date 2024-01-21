@@ -5,12 +5,12 @@ using System.Windows.Input;
 
 namespace KinderGarten.Behavior
 {
-    internal class ButtonBehavior : Behavior<Button>
+    public class ButtonBehavior : Behavior<Button>
     {
         public static readonly DependencyProperty CmdClickDp = DependencyProperty.Register(nameof(CmdClick), typeof(ICommand),
                                                                             typeof(ButtonBehavior), new PropertyMetadata(null));
 
-        public ICommand CmdClick 
+        public ICommand CmdClick
         {
             get
             {
@@ -34,7 +34,7 @@ namespace KinderGarten.Behavior
 
         private void AssociatedObject_Click(object sender, EventArgs e)
         {
-            if(this.CmdClick != null)
+            if (this.CmdClick != null)
             {
                 this.CmdClick.Execute(e);
             }

@@ -7,14 +7,23 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="View\MainPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\Page1.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="View\Page2.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\Page3.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="View\MainPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="View\MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -22,6 +31,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\Page2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Page3.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

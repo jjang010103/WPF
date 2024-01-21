@@ -6,9 +6,23 @@
       xmlns:local="clr-namespace:KinderGarten.View"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="Page1" Background="Purple">
-
-    <Grid>
-        
-    </Grid>
+      Title="Page1">
+    <ListView ItemsSource="{Binding ChildList}" Background="LightPink">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <Border BorderBrush="White" Background="White" BorderThickness="2" CornerRadius="8" Padding="4,1,4,1">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="{Binding Name}" Grid.Column="0"/>
+                        <TextBlock Text=" " Grid.Column="1"/>
+                        <TextBlock Text="{Binding Age}" Grid.Column="2"/>
+                    </Grid>
+                </Border>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
 </Page>
