@@ -1,0 +1,41 @@
+﻿<Window x:Class="ViewSlide.View.Window3.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:Command="clr-namespace:ViewSlide.Command"
+        xmlns:ViewModel="clr-namespace:ViewSlide.ViewModel.Window3"
+        mc:Ignorable="d"
+        Title="Window3" Background="LightPink"
+        Left="{Binding Path=Left, Mode=TwoWay}"
+        Top="{Binding Path=Top, Mode=TwoWay}"
+        Width="{Binding Path=Width, Mode=TwoWay}"
+        Height="{Binding Path=Height, Mode=TwoWay}"
+        Style="{StaticResource WindowStyle}">
+    <Window.DataContext>
+        <ViewModel:Window3ViewModel/>
+    </Window.DataContext>
+    <Window.Resources>
+        <Style x:Key="ImageStyle" TargetType="{x:Type Image}">
+            <Style.Triggers>
+                <Trigger Property="Tag" Value="r">
+                    <Trigger.EnterActions>
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.25" To="1" Duration="0:0:3" AutoReverse="True"/>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </Trigger.EnterActions>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    <Window.InputBindings>
+        <KeyBinding Key="esc" Command="Command:WindowKeyDown_esc.Instance"/>
+        <KeyBinding Key="Space" Command="Command:WindowKeyDown_Space.Instance"/>
+        <KeyBinding />
+    </Window.InputBindings>
+    <DockPanel LastChildFill="True">
+        <Image Source="{Binding Model.ImagePath}" Style="{StaticResource ImageStyle}" Tag="{Binding ImageTag}"/>
+    </DockPanel>
+</Window>

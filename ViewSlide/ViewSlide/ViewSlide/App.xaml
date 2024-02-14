@@ -1,0 +1,13 @@
+﻿<Application x:Class="ViewSlide.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:ViewSlide"
+             Startup="App_Startup">
+    <Application.Resources>
+        <Style x:Key="WindowStyle" TargetType="Window">
+            <Setter Property="Topmost" Value="false"/>
+            <Setter Property="WindowStyle" Value="None"/>
+            <Setter Property="ResizeMode" Value="NoResize"/>
+        </Style>
+    </Application.Resources>
+</Application>

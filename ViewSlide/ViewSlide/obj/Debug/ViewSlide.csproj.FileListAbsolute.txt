@@ -1,0 +1,79 @@
+C:\Document\Sub Project\ViewSlide\ViewSlide\bin\Debug\dll\x86\OpenCvSharpExtern.dll
+C:\Document\Sub Project\ViewSlide\ViewSlide\bin\Debug\dll\x86\opencv_videoio_ffmpeg455.dll
+C:\Document\Sub Project\ViewSlide\ViewSlide\bin\Debug\dll\x64\OpenCvSharpExtern.dll
+C:\Document\Sub Project\ViewSlide\ViewSlide\bin\Debug\dll\x64\opencv_videoio_ffmpeg455_64.dll
+C:\Document\Sub Project\ViewSlide\ViewSlide\bin\Debug\DlibDotNetNative.dll
+C:\Document\Sub Project\ViewSlide\ViewSlide\bin\Debug\DlibDotNetNativeDnn.dll
+C:\Document\Sub Project\ViewSlide\ViewSlide\bin\Debug\EDSDK.dll
+C:\Document\Sub Project\ViewSlide\ViewSlide\bin\Debug\ViewSlide.exe.config
+C:\Document\Sub Project\ViewSlide\ViewSlide\bin\Debug\ViewSlide.exe
+C:\Document\Sub Project\ViewSlide\ViewSlide\bin\Debug\ViewSlide.pdb
+C:\Document\Sub Project\ViewSlide\ViewSlide\bin\Debug\LKCameraLib.dll
+C:\Document\Sub Project\ViewSlide\ViewSlide\bin\Debug\EDSDKLib.dll
+C:\Document\Sub Project\ViewSlide\ViewSlide\bin\Debug\LKImageLib.dll
+C:\Document\Sub Project\ViewSlide\ViewSlide\bin\Debug\OpenCvSharp.dll
+C:\Document\Sub Project\ViewSlide\ViewSlide\bin\Debug\zxing.dll
+C:\Document\Sub Project\ViewSlide\ViewSlide\bin\Debug\log4net.dll
+C:\Document\Sub Project\ViewSlide\ViewSlide\bin\Debug\Kaliko.ImageLibrary.dll
+C:\Document\Sub Project\ViewSlide\ViewSlide\bin\Debug\DlibDotNet.dll
+C:\Document\Sub Project\ViewSlide\ViewSlide\bin\Debug\OpenCvSharp.Extensions.dll
+C:\Document\Sub Project\ViewSlide\ViewSlide\bin\Debug\System.Memory.dll
+C:\Document\Sub Project\ViewSlide\ViewSlide\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Document\Sub Project\ViewSlide\ViewSlide\bin\Debug\System.Numerics.Vectors.dll
+C:\Document\Sub Project\ViewSlide\ViewSlide\bin\Debug\System.Buffers.dll
+C:\Document\Sub Project\ViewSlide\ViewSlide\bin\Debug\LKCameraLib.pdb
+C:\Document\Sub Project\ViewSlide\ViewSlide\bin\Debug\LKCameraLib.dll.config
+C:\Document\Sub Project\ViewSlide\ViewSlide\bin\Debug\EDSDKLib.pdb
+C:\Document\Sub Project\ViewSlide\ViewSlide\bin\Debug\LKImageLib.pdb
+C:\Document\Sub Project\ViewSlide\ViewSlide\bin\Debug\LKImageLib.dll.config
+C:\Document\Sub Project\ViewSlide\ViewSlide\bin\Debug\OpenCvSharp.xml
+C:\Document\Sub Project\ViewSlide\ViewSlide\bin\Debug\zxing.xml
+C:\Document\Sub Project\ViewSlide\ViewSlide\bin\Debug\log4net.xml
+C:\Document\Sub Project\ViewSlide\ViewSlide\bin\Debug\Kaliko.ImageLibrary.xml
+C:\Document\Sub Project\ViewSlide\ViewSlide\bin\Debug\OpenCvSharp.Extensions.xml
+C:\Document\Sub Project\ViewSlide\ViewSlide\bin\Debug\System.Memory.xml
+C:\Document\Sub Project\ViewSlide\ViewSlide\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Document\Sub Project\ViewSlide\ViewSlide\bin\Debug\System.Numerics.Vectors.xml
+C:\Document\Sub Project\ViewSlide\ViewSlide\bin\Debug\System.Buffers.xml
+C:\Document\Sub Project\ViewSlide\ViewSlide\obj\Debug\ViewSlide.csproj.AssemblyReference.cache
+C:\Document\Sub Project\ViewSlide\ViewSlide\obj\Debug\ViewSlide.csproj.SuggestedBindingRedirects.cache
+C:\Document\Sub Project\ViewSlide\ViewSlide\obj\Debug\ViewSlide.exe.config
+C:\Document\Sub Project\ViewSlide\ViewSlide\obj\Debug\App.g.cs
+C:\Document\Sub Project\ViewSlide\ViewSlide\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Document\Sub Project\ViewSlide\ViewSlide\obj\Debug\ViewSlide_MarkupCompile.cache
+C:\Document\Sub Project\ViewSlide\ViewSlide\obj\Debug\ViewSlide_MarkupCompile.lref
+C:\Document\Sub Project\ViewSlide\ViewSlide\obj\Debug\App.baml
+C:\Document\Sub Project\ViewSlide\ViewSlide\obj\Debug\ViewSlide.g.resources
+C:\Document\Sub Project\ViewSlide\ViewSlide\obj\Debug\ViewSlide.Properties.Resources.resources
+C:\Document\Sub Project\ViewSlide\ViewSlide\obj\Debug\ViewSlide.csproj.GenerateResource.cache
+C:\Document\Sub Project\ViewSlide\ViewSlide\obj\Debug\ViewSlide.csproj.CoreCompileInputs.cache
+C:\Document\Sub Project\ViewSlide\ViewSlide\obj\Debug\ViewSlide.csproj.CopyComplete
+C:\Document\Sub Project\ViewSlide\ViewSlide\obj\Debug\ViewSlide.exe
+C:\Document\Sub Project\ViewSlide\ViewSlide\obj\Debug\ViewSlide.pdb
+C:\Document\Sub Project\ViewSlide\ViewSlide\obj\Debug\View\Window1\Window1.g.cs
+C:\Document\Sub Project\ViewSlide\ViewSlide\obj\Debug\View\Window2\Window2.g.cs
+C:\Document\Sub Project\ViewSlide\ViewSlide\obj\Debug\View\Window3\Window3.g.cs
+C:\Document\Sub Project\ViewSlide\ViewSlide\obj\Debug\View\Window1\Window1.baml
+C:\Document\Sub Project\ViewSlide\ViewSlide\obj\Debug\View\Window2\Window2.baml
+C:\Document\Sub Project\ViewSlide\ViewSlide\obj\Debug\View\Window3\Window3.baml
+C:\Users\mgjang\Downloads\ViewSlide\ViewSlide\obj\Debug\ViewSlide.csproj.AssemblyReference.cache
+C:\Users\mgjang\Downloads\ViewSlide\ViewSlide\obj\Debug\View\Window1\Window1.g.cs
+C:\Users\mgjang\Downloads\ViewSlide\ViewSlide\obj\Debug\View\Window2\Window2.g.cs
+C:\Users\mgjang\Downloads\ViewSlide\ViewSlide\obj\Debug\View\Window3\Window3.g.cs
+C:\Users\mgjang\Downloads\ViewSlide\ViewSlide\obj\Debug\App.g.cs
+C:\Users\mgjang\Downloads\ViewSlide\ViewSlide\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\mgjang\Downloads\ViewSlide\ViewSlide\obj\Debug\ViewSlide_MarkupCompile.cache
+C:\Users\mgjang\Downloads\ViewSlide\ViewSlide\obj\Debug\ViewSlide_MarkupCompile.lref
+C:\Users\mgjang\Downloads\ViewSlide\ViewSlide\obj\Debug\ViewSlide.exe
+C:\Users\mgjang\Downloads\ViewSlide\ViewSlide\obj\Debug\ViewSlide.pdb
+C:\Users\mgjang\Downloads\ViewSlide\ViewSlide\bin\Debug\ViewSlide.exe.config
+C:\Users\mgjang\Downloads\ViewSlide\ViewSlide\bin\Debug\ViewSlide.exe
+C:\Users\mgjang\Downloads\ViewSlide\ViewSlide\bin\Debug\ViewSlide.pdb
+C:\Users\mgjang\Downloads\ViewSlide\ViewSlide\obj\Debug\App.baml
+C:\Users\mgjang\Downloads\ViewSlide\ViewSlide\obj\Debug\View\Window1\Window1.baml
+C:\Users\mgjang\Downloads\ViewSlide\ViewSlide\obj\Debug\View\Window2\Window2.baml
+C:\Users\mgjang\Downloads\ViewSlide\ViewSlide\obj\Debug\View\Window3\Window3.baml
+C:\Users\mgjang\Downloads\ViewSlide\ViewSlide\obj\Debug\ViewSlide.g.resources
+C:\Users\mgjang\Downloads\ViewSlide\ViewSlide\obj\Debug\ViewSlide.Properties.Resources.resources
+C:\Users\mgjang\Downloads\ViewSlide\ViewSlide\obj\Debug\ViewSlide.csproj.GenerateResource.cache
+C:\Users\mgjang\Downloads\ViewSlide\ViewSlide\obj\Debug\ViewSlide.csproj.CoreCompileInputs.cache
